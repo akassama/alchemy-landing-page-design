@@ -272,5 +272,58 @@ footer a.icon:hover {
     background-image: url("../images/banner.png");
     background-position: center 20%;
     background-size: cover;
+}
 
+
+
+
+/* No underlining */
+ .no-ul{
+ text-decoration: none !important;
+ }
+
+.sm-mg{
+  margin-top: 1em !important;
+}
+
+/* Responsive Design */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .sm-mg{
+    margin-top: 5em !important;
+  }
+
+  /*body{background: red;}*/
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .sm-mg{
+    margin-top: 3em !important;
+  }
+  /*body{background: yellow;}*/
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .sm-mg{
+    margin-top: 2em !important;
+  }
+  /*body{background: brown;}*/
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .sm-mg{
+    margin-top: 1.5em !important;
+  }
+  /*body{background: blue;}*/
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .sm-mg{
+    margin-top: 0.5em !important;
+  }
+  /*body{background: green;}*/
 }

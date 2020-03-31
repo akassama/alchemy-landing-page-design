@@ -49,11 +49,11 @@
             <li class="nav-item active">
               <a class="nav-link" href="services.html">Services <span class="sr-only"></span></a>
             </li>
+        </ul>
+        <ul class="form-inline my-2 my-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="register.html">Register</a>
             </li>
-        </ul>
-        <ul class="form-inline my-2 my-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="login.html">Login</a>
             </li>
@@ -64,13 +64,12 @@
       </div>
     </nav>
 
-    <section id='start'>
-
+    <section id='start' class="sm-mg">
 <h2 class="text-center mt-5">Register</h2>
 <div class="container pt-3">
     <div class="row justify-content-sm-center">
         <div class="col-sm-10 col-md-10">
-            <div class="card border-info">
+            <div class="card border-dark">
                 <div class="card-header">Fill the form to register</div>
                 <div class="card-body">
                     <div class="row">
@@ -130,11 +129,11 @@
                                             <div class="form-check">
                                                 <label class="form-check-label">
                                                     <input type="checkbox" class="form-check-input" onchange="this.setCustomValidity(validity.valueMissing ? 'Please indicate that you accept the Terms and Conditions' : '');" id="field_terms" value="Agree" name="terms" required="required">
-                                                    I Read and Accept <a href="#" data-toggle="modal" data-target="#termsModal">Terms and Conditions</a>
+                                                    I Read and Accept <a href="#" data-toggle="modal" data-target="#termsModal" class="text-dark font-weight-bold no-ul">Terms and Conditions</a>
                                                 </label>
                                             </div>
 
-                                            <button type="submit" class="btn btn-dark mt-4 bg-alchemy" id="signUpButton" disabled><i class="fas fa-sign-in-alt"></i> Sign-Up</button>
+                                            <button type="submit" class="btn btn-danger mt-4 bg-alchemy" id="signUpButton" disabled><i class="fas fa-sign-in-alt"></i> Sign-Up</button>
                                         </div>
                                     </div>
                                 </div>
@@ -143,8 +142,8 @@
                 </div>
             </div>
             <p>
-                Already have an account? <a href="login.html">Login</a>
-                <a href="index.html" class="float-right"><i class="fas fa-home">Home</i></a>
+                Already have an account? <a href="login.html" class="text-dark font-weight-bold no-ul">Login</a>
+                <a href="index.html" class="float-right text-dark font-weight-bold no-ul"><i class="fas fa-home">Home</i></a>
             </p>
         </div>
     </div>

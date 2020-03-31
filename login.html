@@ -49,11 +49,11 @@
             <li class="nav-item active">
               <a class="nav-link" href="services.html">Services <span class="sr-only"></span></a>
             </li>
+        </ul>
+        <ul class="form-inline my-2 my-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="register.html">Register</a>
             </li>
-        </ul>
-        <ul class="form-inline my-2 my-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="login.html">Login</a>
             </li>
@@ -63,14 +63,14 @@
         </ul>
       </div>
     </nav>
-    <section id='start'>
+    <section id='start' class="sm-mg">
 <h2 class="text-center mt-5">Login</h2>
 <div class="container pt-3">
 
     <div class="row justify-content-sm-center">
 
         <div class="col-sm-8 col-md-10 offset-1">
-            <div class="card border-info">
+            <div class="card border-dark">
                 <div class="card-header">Sign in to continue </div>
                 <div class="card-body">
                     <div class="row">
@@ -78,19 +78,19 @@
                             <form class="form-signin">
                                 <input type="text" class="form-control mb-2" id="userEmail" name="userEmail" placeholder="Email" value="" required>
                                 <input type="password" class="form-control mb-2" id="userPassword" name="userPassword" placeholder="Password" required>
-                                <button class="btn btn-lg btn-dark btn-block mb-1 bg-alchemy" type="submit"><i class="fas fa-sign-in-alt"></i> Sign in</button>
+                                <button class="btn btn-lg btn-danger btn-block mb-1 bg-alchemy" type="submit"><i class="fas fa-sign-in-alt"></i> Sign in</button>
                                 <label class="checkbox float-left">
                                     <input type="checkbox" id="RememberMe" name="RememberMe" value="1">
                                     Remember me
                                 </label>
-                                <a href="#forgotPasswordModal" class="float-right" data-toggle="modal" data-target="#forgotPasswordModal">Forgot password?</a>
+                                <a href="#forgotPasswordModal" class="float-right text-dark font-weight-bold no-ul" data-toggle="modal" data-target="#forgotPasswordModal">Forgot password?</a>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
             <p>
-                Don't have an account yet? <a href="register.html">Create an account</a>
+                Don't have an account yet? <a href="register.html" class="text-dark font-weight-bold no-ul">Create an account</a>
             </p>
         </div>
     </div>

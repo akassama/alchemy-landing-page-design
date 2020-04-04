@@ -286,6 +286,23 @@ footer a.icon:hover {
   margin-top: 1em !important;
 }
 
+
+/* For input size control */
+.input-sm{
+font-size:14px;
+font-weight: bold;
+padding: 2em;
+}
+
+.input-md{
+font-size:20px;
+padding: 0.5em;
+}
+
+.input-lg{
+font-size:24px;
+}
+
 /* Responsive Design */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

@@ -291,7 +291,12 @@ footer a.icon:hover {
 .input-sm{
 font-size:14px;
 font-weight: bold;
-padding: 2em;
+padding: 2em 0em 2em 0.5em;
+}
+.input-sm::-webkit-input-placeholder {
+    font-size: 18px;
+    text-align: left;
+	padding-left: 0.5em;
 }
 
 .input-md{
